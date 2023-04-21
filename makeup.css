@@ -1,0 +1,169 @@
+body{background-color: black;}
+/* NAVBAR STYLING */
+
+.navbar{
+position: fixed;
+width: 100%;
+top:0px;
+left:0px;
+background: #FCAF02;
+}
+.navbar-logo{
+margin-left: 58px;
+font-family: 'Montserrat';
+font-weight: bolder;
+font-size: 28px;
+color: #000000;
+}
+.navbar-links{
+list-style: none;
+display: flex;
+justify-content: flex-end;
+margin: 0;
+}  
+.navbar-links li{
+margin: 0 10px;
+margin-top:-50px;
+}  
+.navbar-links a{
+margin-right: 40px;
+text-decoration: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 550;
+font-size: 20px;
+color: #000000;
+}
+.navbar-links a:hover{color:green;}
+
+/* INTRO_SECTION STYLING */
+.intro-section{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.intro-content h2{
+margin-left: 58px;
+margin-top: 140px;
+font-family: 'Montserrat';
+font-weight: bold;
+font-size: 60px;
+color: #FFFFFF;
+}
+.intro-content p{
+/* width:700px; */
+margin-left: 63px;
+font-family: 'Montserrat';
+font-size: 28px;
+color: #FFFFFF;
+}
+.intro-content button{
+background-color: #FCAF02;
+color: black;
+padding: 10px 20px;
+margin-left: 60px;
+margin-top:30px;
+border: none;
+cursor: pointer;
+width: 280px;
+background: #FCAF02;
+border-radius: 500px;
+font-weight: bolder;
+font-size: 32px;
+font-family: 'Montserrat';
+}  
+.intro-image img{
+    width: 600px;
+}
+
+/* CONTACT SECTION STYLING */
+
+.contact-section h2{
+margin-left: 50px;
+margin-top: 100px;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 60px;
+color: #FCAF02;    
+}
+/* form{align-items: center;}   */
+input{
+width: 90%;
+height:30px;
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 5px;
+margin-bottom: 20px;
+font-size: 18px;
+outline: none;
+margin-left: 50px;
+border-radius: 10px;
+background-color:black;
+border:2px #FCAF02 solid;
+color:white;
+}
+input[type="tel"], input[id="city"]{
+width:43.6%;
+margin-right: -40px;
+}
+::placeholder{
+    color:#FCAF02;
+}
+.contact-section button{
+box-sizing: border-box;
+width: 220px;
+height: 70px;
+margin-top: 30px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+background: #FCAF02;
+border: 2px solid #FCAF02;
+border-radius: 100px;
+color: #000000;
+}
+.contact-section button:hover{
+    cursor:pointer;
+    border:2px black solid;
+    background-color:green;
+    color:white;
+}
+ 
+  /* TABLE STYLING */
+
+table{
+border-collapse: collapse;
+width:92%;
+margin-left:50px;
+color:#FCAF02;
+text-align: left;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+thead{
+height: 34px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+}
+
+table th, table{
+    border: 2px solid #FCAF02;
+    padding: 10px;
+}
+table td{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+padding:20px;
+margin-left: 20px;
+border-left: 2px #FCAF02 solid;
+}
+table tfoot td{
+    background-color: #FCAF02;
+    color:black;
+    border-left: 2px black solid;
+}
