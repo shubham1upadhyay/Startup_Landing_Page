@@ -1,166 +1,172 @@
-body{background-color: black;}
-/* NAVBAR STYLING */
-
+body{
+    background-color: #000000;
+}
 .navbar{
-position: fixed;
-width: 100%;
-top:0px;
-left:0px;
-background: #FCAF02;
+    display:flex;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    left:0px;
+    background: #FCAF02;
 }
 .navbar-logo{
-margin-left: 58px;
-font-family: 'Montserrat';
-font-weight: bolder;
-font-size: 28px;
-color: #000000;
+    margin-left: 58px;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 28px;
+    color: #000000;
 }
 .navbar-links{
-list-style: none;
-display: flex;
-justify-content: flex-end;
-margin: 0;
-}  
-.navbar-links li{
-margin: 0 10px;
-margin-top:-50px;
-}  
-.navbar-links a{
-margin-right: 40px;
-text-decoration: none;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 550;
-font-size: 20px;
-color: #000000;
-}
-.navbar-links a:hover{color:green;}
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top:30px;
+    margin-left:650px ;
 
-/* INTRO_SECTION STYLING */
+}
+.navbar-links a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 550;
+    font-size:18px;
+}
+.navbar-links li{
+    margin-left:40px;
+}
+.navbar-links a:hover{
+    color:green;
+}
+
+/* INTRO SECTION STYLING */
+
 .intro-section{
-display: flex;
-align-items: center;
-justify-content: space-between;
+    width:100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
 }
-.intro-content h2{
-margin-left: 58px;
-margin-top: 140px;
-font-family: 'Montserrat';
-font-weight: bold;
-font-size: 60px;
-color: #FFFFFF;
+.intro-content{
+    padding:40px;
+    color:white;
+    /* width:60%; */
+    font-size:24px;
+    font-family: 'Montserrat';
 }
-.intro-content p{
-/* width:700px; */
-margin-left: 63px;
-font-family: 'Montserrat';
-font-size: 28px;
-color: #FFFFFF;
+.intro-image img{
+    /* position: relative; */
+    width: 500px;
+    margin-top: 40px;
+    /* margin-left:-30px; */
 }
 .intro-content button{
-background-color: #FCAF02;
-color: black;
-padding: 10px 20px;
-margin-left: 60px;
-margin-top:30px;
-border: none;
-cursor: pointer;
-width: 280px;
-background: #FCAF02;
-border-radius: 500px;
-font-weight: bolder;
-font-size: 32px;
-font-family: 'Montserrat';
+    background-color: #FCAF02;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    margin-top:30px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    background: #FCAF02;
+    border-radius: 500px;
+    font-weight: bolder;
+    font-size: 28px;
+    font-family: 'Montserrat';
 }  
-.intro-image img{
-    width: 600px;
-}
 
 /* CONTACT SECTION STYLING */
 
+.contact-section{
+    width:100%;
+}
+
 .contact-section h2{
-margin-left: 50px;
-margin-top: 100px;
-font-family: 'Montserrat';
-font-weight: 700;
-font-size: 60px;
-color: #FCAF02;    
+    margin-left: 50px;
+    margin-top: 0px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FCAF02;    
 }
-/* form{align-items: center;}   */
 input{
-width: 90%;
-height:30px;
-padding: 10px;
-border: 2px solid #ccc;
-border-radius: 5px;
-margin-bottom: 20px;
-font-size: 18px;
-outline: none;
-margin-left: 50px;
-border-radius: 10px;
-background-color:black;
-border:2px #FCAF02 solid;
-color:white;
-}
+    width: 1100px;
+    height:30px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    outline: none;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color:black;
+    border:2px #FCAF02 solid;
+    color:white;
+    }
 input[type="tel"], input[id="city"]{
-width:43.6%;
-margin-right: -40px;
+    width:532px;
+    margin-right: -40px;
 }
 ::placeholder{
     color:#FCAF02;
 }
+.contact-btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-section {
+    width: auto;
+}
 .contact-section button{
-box-sizing: border-box;
-width: 220px;
-height: 70px;
-margin-top: 30px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-background: #FCAF02;
-border: 2px solid #FCAF02;
-border-radius: 100px;
-color: #000000;
+    width: 230px;
+    padding:10px;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 28px;
+    background: #FCAF02;
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+    color: #000000;
 }
 .contact-section button:hover{
     cursor:pointer;
-    border:2px black solid;
-    background-color:green;
-    color:white;
 }
- 
+
   /* TABLE STYLING */
 
 table{
-border-collapse: collapse;
-width:92%;
-margin-left:50px;
-color:#FCAF02;
-text-align: left;
-margin-top: 100px;
-margin-bottom: 50px;
+    border-collapse: collapse;
+    width:92%;
+    margin-left:50px;
+    color:#FCAF02;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 thead{
-height: 34px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
+    height: 34px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
 }
-
+    
 table th, table{
     border: 2px solid #FCAF02;
     padding: 10px;
 }
 table td{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-padding:20px;
-margin-left: 20px;
-border-left: 2px #FCAF02 solid;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding:20px;
+    margin-left: 20px;
+    border-left: 2px #FCAF02 solid;
 }
 table tfoot td{
     background-color: #FCAF02;
