@@ -106,8 +106,8 @@ input{
     color:white;
     }
 input[type="tel"], input[id="city"]{
-    width:42.4%;
-    /* margin-left: 5px; */
+    width:44.2%;
+    margin-right: -40px;
 }
 ::placeholder{
     color:#FCAF02;
