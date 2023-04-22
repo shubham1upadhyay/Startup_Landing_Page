@@ -140,8 +140,8 @@ input[type="tel"], input[id="city"]{
 
 table{
     border-collapse: collapse;
-    width:92%;
-    margin-left:50px;
+    width:100%;
+    /* margin-left:50px; */
     color:#FCAF02;
     text-align: left;
     margin-top: 100px;
